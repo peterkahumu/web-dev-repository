@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <section id="nav" class="nav-bar">
+                <nav>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <div class="text">
+            Contact Us
+        </div>
+        <form action="" onsubmit="return false">
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" name="full-name" id="full-name" required>
+                    <div class="underline"></div>
+                    <label for="full-name">Full Name</label>
+                    <span class="error-message" id="full-name-error"></span>
+                </div>
+
+                <div class="input-data">
+                    <input type="email" name="email" id="email" required>
+                    <div class="underline"></div>
+                    <label for="email">Email</label>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" name="subject" id="subject" required>
+                    <div class="underline"></div>
+                    <label for="subject">Subject</label>
+                    <span class="error-message" id="subject-error"></span>
+                </div>
+
+                <div class="input-data textarea">
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                    <div class="underline"></div>
+                    <label for="message">Message</label>
+                    <span class="error-message" id="message-error"></span>
+                </div>
+            </div>
+            
+
+            <div class="form-row submit-btn">
+                <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" id="submit" value="Send">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need further information, feel free to reach out to us:</p>
+        <h3>Contact Information</h3>
+        <ul>
+            <li><strong>Email:</strong> info@ourschool.com</li>
+            <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+            <li><strong>Address:</strong> 123 School Lane, Education City, EC 12345</li>
+        </ul>
+        <h3>Follow Us</h3>
+        <p>Stay connected through our social media channels:</p>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+<script src="js/menuBar.js"></script>
+</html>
